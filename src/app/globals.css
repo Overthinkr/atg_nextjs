@@ -1,5 +1,5 @@
 .btn-outline-purple {
-  color: #6f42c1; /* Purple color */
+  color: #6f42c1;
   border-color: #6f42c1;
 }
 
@@ -66,4 +66,13 @@
 .hover-danger:hover .btn-outline-danger {
   color: white !important;
   border-color: white !important;
+}
+
+.responsive-audio {
+  width: 100%;
+  max-width: 100%;
+}
+
+.responsive-audio audio {
+  width: 100%;
 }
