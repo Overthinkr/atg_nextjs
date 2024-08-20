@@ -1,7 +1,13 @@
+import Footer from "@/components/footer";
+import Landing from "@/components/landing";
+import User from "@/components/User";
+
 export default function Home() {
   return (
     <main>
-      <h1 className="text-danger">Hi</h1>
+      <User />
+      <Landing />
+      <Footer />
     </main>
   );
 }
